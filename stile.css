@@ -1,0 +1,172 @@
+body {
+    background-color: #F7F9FA;
+}
+
+h2 {
+    font-family: 'Climate Crisis';
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icona1 {
+    display: flex;
+    float: left;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header a:hover {
+    color: #878787;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 30px;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.sinistra {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destra {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column1 {
+    background-color: #8EBDC2;
+    padding-top: 40px;
+    margin: auto;
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+
+.row1::after {
+    padding-top: auto;
+    display: table;
+    clear: both;
+}
+
+   
+.image {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    justify-self: start;
+}
+
+.row {
+    display: flex;
+    float: left;
+}
+  
+.column {
+    flex: 50%;
+    margin: 5%;
+}
+
+.marchio, .workspace {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.row2 {
+    display: flex;
+    float: left;
+}
+  
+.column2 {
+    flex: 50%;
+    margin: 2%;
+}
+
+hr {
+    clear: both;
+    margin: 20px;
+}
+
+.lb1, .lb2 .lb3, .lb4 {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.xh1, .xh2 .xh3, .xh4 {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.kf1, .kf2, .kf3 {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.lf1, .lf2, .lf3, .lf4 {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tl1, .tl2, .tl3 {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ch1, .ch2 .ch3 {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.row3 {
+    display: flex;
+}
+  
+.column3 {
+    flex: 33.33%;
+    padding: 5px;
+}
