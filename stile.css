@@ -171,6 +171,5 @@ hr {
   
 .column3 {
     display: flex;
-    flex: 33.33%;
     padding: 5px;
 }
